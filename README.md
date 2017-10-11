@@ -1,4 +1,4 @@
-# Library Management System (LMS) for a university
+# Library Management System (EDUCART) for a university
 
 ## Technologies
 Spring, DI, AOP, MVC, ORM, transactions.
@@ -75,7 +75,6 @@ For ease of testing, the capability for a librarian to set the current date and 
 
 ## Github setup
 1. Use a github UI application. E.g. Source Tree
-2. Clone this repository to your workstation: https://github.com/shubhamvadhera/library-management-spring
 3. Follow the instructions from this document to setup the environment on your local machine.
 
 ## Push to build with Jenkins
