@@ -4,7 +4,7 @@
 Spring, DI, AOP, MVC, ORM, transactions.
 
 ## Tools
-IntelliJ, Maven, MySQL, Jenkins, Apache Tomcat
+IntelliJ, Maven, Oracle10g, Jenkins, Apache Tomcat
 
 ## Requirements implemented
 
@@ -78,12 +78,6 @@ For ease of testing, the capability for a librarian to set the current date and 
 2. Clone this repository to your workstation: https://github.com/shubhamvadhera/library-management-spring
 3. Follow the instructions from this document to setup the environment on your local machine.
 
-## Google Cloud - Compute Engine Connectivity
-1. Create a new ssh key-pair to connect to the Cloud machine. Instructions: https://cloud.google.com/compute/docs/instances/connecting-to-instance#generatesshkeypair
-2. Login to your cloud console via ssh. 
-  * Linux/Mac: https://cloud.google.com/compute/docs/instances/connecting-to-instance#standardssh 
-  * Windows: https://cloud.google.com/compute/docs/instances/connecting-to-instance#putty
-
 ## Push to build with Jenkins
 We used Jenkins for automatic builds on the server. Whenever some new code is pushed onto the master branch Jenkins will pull the commit and start the build.
 Maven is the choice of build tool.
@@ -92,10 +86,4 @@ Maven is the choice of build tool.
 Start Jenkins Server with command: java -jar jenkins.war --httpPort=9090
 
 ## Contributors:
-Skanda Bhargav
-
-Sagar Dafle
-
-Dhanya Ramesh
-
-Shubham Vadhera
+Suryakanta Sahoo
